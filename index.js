@@ -4,18 +4,18 @@
 
 function sum() {
   let numbers = [1, 2, 3, 4, 999];
-  let b = Number(numbers.slice(-1));
-  a = numbers[0];
+  let firstElement = numbers[0];
+  let finalElement = numbers[numbers.length - 1];
 
-  return (sum = a + b);
+  return (sum = firstElement + finalElement);
 }
 console.log(sum());
 
 // 2
 
 function alwaysFive() {
-  var temp = "AMAAAAZING";
-  Z = (temp.match(/A/g) || []).length;
+  var temp = "Amaaaazing!";
+  Z = (temp.match(/[A-a]/g) || []).length;
   return Z;
 }
 console.log(alwaysFive());
