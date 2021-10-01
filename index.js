@@ -14,8 +14,8 @@ console.log(sum());
 // 2
 
 function alwaysFive() {
-  var temp = "Amaaaazing!";
-  Z = (temp.match(/[A-a]/g) || []).length;
+  let word = "Amaaaazing!";
+  Z = (word.match(/[A-a]/g) || []).length;
   return Z;
 }
 console.log(alwaysFive());
